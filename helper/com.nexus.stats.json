@@ -1,0 +1,9 @@
+{
+  "name": "com.nexus.stats",
+  "description": "NEXUS new tab stats helper (GPU + network)",
+  "path": "D:\\Web Projects\\Professional\\chorme-skin\\helper\\run_host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://epggcoimabhcgcboibicepaonghfpkni/"
+  ]
+}

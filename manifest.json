@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "NEXUS — New Tab",
+  "version": "1.4.0",
+  "description": "A cinematic, customizable new tab dashboard.",
+  "permissions": [
+    "storage",
+    "history",
+    "favicon",
+    "tabs",
+    "tabGroups",
+    "system.cpu",
+    "system.memory",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "https://api.open-meteo.com/*",
+    "https://geocoding-api.open-meteo.com/*",
+    "https://api.github.com/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
